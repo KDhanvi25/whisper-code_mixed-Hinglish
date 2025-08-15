@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.env
+.venv
+venv/
+
+# Checkpoints, datasets, and large archives
+ckpts/
+data/
+dataset/
+training/
+Hindi-English_test.tar.gz
+
+# Large audio & model artifacts
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.npy
+*.npz
+*.pkl
+*.pt
+*.bin
+*.ckpt
+*.log
+
+# Generated outputs
+baseline_outputs.json
+biased_outputs.json
+finetune_outputs.json
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
