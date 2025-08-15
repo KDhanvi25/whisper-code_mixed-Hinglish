@@ -83,7 +83,7 @@ python compare_outputs.py baseline_outputs.json finetune_outputs.json
 📈 Results
 Model Variant	WER (%)
 Baseline Whisper	42.45
-Prompt-Biased Whisper	35.5
+Prompt-Biased Whisper	37.5
 Fine-Tuned Whisper	30.04
 
 
